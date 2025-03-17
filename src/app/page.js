@@ -8,7 +8,7 @@ import { SiGoogleanalytics } from "react-icons/si";
 import Piechart from "@/components/piechart"
 import Sales from "@/components/sales"
 import Returns from "@/components/returns"
-const page = () => {
+const Page = () => {
   const[select,setselect]=useState(0);
   return (
     <div style={{display:'flex',width:'100vw',height:'100vh',justifyContent:'center',alignContent:'space-between',gap:'3vh',alignItems:'center',backgroundColor:'#fefae0'}}>
@@ -52,4 +52,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
